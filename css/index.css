@@ -32,6 +32,7 @@
   border-bottom-right-radius: 5px;
   border-top-left-radius: 5px;
   border-bottom-left-radius: 5px;
+  min-width: 200px;
 }
 
 .filed {
@@ -41,9 +42,7 @@
 .line {
   border: 2px solid #c7ecee;
 }
-.page-link {
-  display: flex;
-}
+
 .info {
   display: flex;
   flex-direction: column;
@@ -69,4 +68,8 @@
 .index-color {
   font-size: 0.8em;
   color: #22a6b3;
+}
+
+.index-block {
+  display: inline-block;
 }

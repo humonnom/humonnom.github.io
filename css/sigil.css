@@ -38,15 +38,16 @@
   align-self: center;
   justify-content: center;
   width: 50%;
+  min-width: 250px;
 }
 .paint {
   background-color: #c7ecee;
-  padding: 3% 6%;
+  padding: 3% 5%;
   border-radius: 2%;
-  margin: 10%;
+  margin: 5%;
+  max-width: 350px;
 }
-.ascii-side {
-}
+
 .back_btn {
   background-color: #c7ecee;
   margin: 15px 0px;
@@ -58,10 +59,16 @@
 }
 
 .itext {
-  line-height: 1.2em;
+  line-height: 1.5em;
 }
 
 .desc_txt {
   font-size: 1.3em;
   color: #22a6b3;
+}
+
+.paint_desc {
+  display: flex;
+  align-self: center;
+  font-size: 0.8em;
 }
