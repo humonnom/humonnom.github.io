@@ -34,7 +34,9 @@
   border-top-left-radius: 5px;
   border-bottom-left-radius: 5px;
 }
-
+.page-link {
+  display: flex;
+}
 .info {
   display: flex;
   flex-direction: column;
@@ -43,6 +45,11 @@
 .info_txt {
   margin: 2%;
   color: #22a6b3;
+}
+.index_small {
+  opacity: 80%;
+  font-size: 1.1em;
+  color: red;
 }
 
 .info_profile {
