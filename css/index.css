@@ -26,13 +26,20 @@
 
 .list-wrapper {
   display: flex;
-  background-color: #c7ecee;
   margin: 15px 0px;
   padding: 12px 50px;
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
   border-top-left-radius: 5px;
   border-bottom-left-radius: 5px;
+}
+
+.filed {
+  background-color: #c7ecee;
+}
+
+.line {
+  border: 2px solid #c7ecee;
 }
 .page-link {
   display: flex;
@@ -46,10 +53,10 @@
   margin: 2%;
   color: #22a6b3;
 }
-.index_small {
-  opacity: 80%;
-  font-size: 1.1em;
-  color: red;
+.index-small {
+  opacity: 60%;
+  margin-right: 1px;
+  margin-left: 2px;
 }
 
 .info_profile {
@@ -60,4 +67,8 @@
   border-radius: 50%;
   margin-top: 3%;
   margin-bottom: 3%;
+}
+.index-color {
+  font-size: 0.8em;
+  color: #22a6b3;
 }
