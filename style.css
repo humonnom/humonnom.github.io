@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;500&display=swap");
+@import "css/reset.css";
+
+body {
+  font-family: "Open Snas", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Oxygen, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  margin: 5%;
+  width: 100%;
+  height: 100%;
+}
+
+h1 {
+  font-size: 2em;
+  font-weight: 500;
+}
+h2 {
+  font-size: 1.1em;
+  font-weight: 500;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+p {
+  font-size: 1em;
+  font-weight: 300;
+}
+
+.img_greet {
+  width: 80%;
+  max-width: 700px;
+  min-width: 350px;
+}
+
+.img_ascii {
+  width: 70%;
+  max-width: 500px;
+  margin-bottom: 2%;
+}
+
+.ascii {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.img_greet,
+.img_ascii {
+  background-color: #fefefd;
+}
+
+.ascii_text {
+  font-size: 1.5em;
+}
+
+.main_li {
+  margin-bottom: 1.2%;
+}
+
+.menu_bem {
+  color: blue;
+  padding-top: 3px;
+}
+.text {
+  display: block;
+}
+
+.images {
+  display: none;
+}
+
+.img_size {
+  min-width: 30%;
+  max-width: 350px;
+}
+
+#cmt {
+  display: none;
+}
