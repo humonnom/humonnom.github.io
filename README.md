@@ -1,2 +1,3 @@
 # humonnom.github.io
-Humonnom's blog...
+
+* 간단한 프로젝트 배포용
